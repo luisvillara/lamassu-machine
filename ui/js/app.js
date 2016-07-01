@@ -17,6 +17,11 @@ var coins = {
     unitScale: 18,
     displayScale: 15,
     displayCode: 'mETH'
+  },
+  DSH: {
+    unitScale: 18,
+    displayScale: 15,
+    displayCode: 'mDSH'
   }
 }
 

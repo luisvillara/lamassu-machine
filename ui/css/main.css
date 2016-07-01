@@ -5,7 +5,7 @@ body {
   overflow: hidden;
   direction: ltr;
   font-family: 'Source Sans Pro', 'Noto Sans CJK CS', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans CJK TC', 'Noto Sans Hebrew', 'Noto Kufi Arabic';
-  cursor: none;
+  /*cursor: none;*/
 }
 
 .brandon {
@@ -1700,15 +1700,15 @@ body  { margin: 0;}
 }
 
 .coin {
-  width: 403px;
-  height: 403px;
+  width: 349px;
+  height: 349px;
   position: absolute;
   margin: 0;
 }
 
 .coin-btc {
-  top: 180px;
-  left: 176px;
+  top: 215px;
+  left: 84px;
 }
 
 .coin-btc:active {
@@ -1716,12 +1716,21 @@ body  { margin: 0;}
 }
 
 .coin-eth {
-  top: 189px;
-  left: 709px;
+  top: 215px;
+  left: 469px;
 }
 
 .coin-eth:active {
   background: url('../images/choose-eth-selected.png') no-repeat;
+}
+
+.coin-dsh {
+  top: 215px;
+  left: 854px;
+}
+
+.coin-dsh:active {
+  background: url('../images/choose-dsh-selected.png') no-repeat;
 }
 
 .authorizing-note {
